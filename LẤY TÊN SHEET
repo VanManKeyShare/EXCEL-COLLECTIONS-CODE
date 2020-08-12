@@ -1,0 +1,6 @@
+
+	LẤY TÊN SHEET
+
+	LƯU Ý - CHỈ LẤY ĐƯỢC KHI TÊN SHEET KHÔNG TRÙNG TÊN FILE
+
+	=MID(CELL("filename",INDIRECT("A1",TRUE)),FIND("]",CELL("filename",INDIRECT("A1",TRUE)))+1,255)
