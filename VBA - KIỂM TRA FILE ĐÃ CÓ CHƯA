@@ -1,0 +1,8 @@
+
+VBA - KIỂM TRA FILE ĐÃ CÓ CHƯA
+
+Function ManMan89_Check_File_Is_EXISTS(sFileName As String) As Boolean
+    Dim oFSO As Object
+    Set oFSO = CreateObject("Scripting.FileSystemObject")
+    ManMan89_Check_File_Is_EXISTS = oFSO.fileExists(sFileName)
+End Function
